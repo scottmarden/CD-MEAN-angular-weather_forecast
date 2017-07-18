@@ -1,0 +1,10 @@
+<h2>Welcome to the Dallas dojo!</h2>
+
+<div *ngIf="weather">
+	<p>Humidity: </p>
+	<p>Temperature(Average): {{ (weather.main.temp_max + weather.main.temp_min)/2 }}</p>
+	<p>Temperature(High): {{ weather.main.temp_max }} </p>
+	<p>Temperature(Low): {{ weather.main.temp_min }}</p>
+	<p>Status: {{ weather.weather[0].description }}</p>
+</div>
+<img src="https://static.pexels.com/photos/45182/dallas-texas-skyline-dusk-45182.jpeg" alt="dallas" />

@@ -1,0 +1,9 @@
+#wrapper {
+	background-color: lightgrey;
+	padding: 20px;
+}
+.navBar a{
+	padding: 2px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
